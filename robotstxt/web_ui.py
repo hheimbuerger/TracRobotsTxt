@@ -16,7 +16,7 @@ class RobotsTxtModule(Component):
         data = ''
         if page.exists:
             data = page.text
-        data = data.replace('{{{', '').replace('}}}', '')
+        data = data.replace('{{{', '').replace('}}}', '').strip(' \t\n\r')
+        if isinstance(data, unicode):
+            data = data.encode('utf-8')
         req.send(data, 'text/plain')
-        
-
