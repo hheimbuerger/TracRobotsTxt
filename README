@@ -1,3 +1,10 @@
+Fork info
+=========
+
+This is a fork of the TracRobotsTxt Trac plugin. Created from the source package from https://pypi.python.org/pypi/TracRobotsTxt, uploaded on 2009-11-30, taken on 2016-11-28. Afterwards, it has eseifert's patch from https://trac-hacks.org/ticket/6379 applied, which should make it compatible with Trac 0.12 and 1.0.
+
+The following is the original README by Noah Kantrowitz:
+
 Notes
 =====
 

@@ -6,7 +6,7 @@ from setuptools import setup
 
 setup(
     name = 'TracRobotsTxt',
-    version = '2.0',
+    version = '2.1',
     packages = ['robotstxt'],
 
     author = 'Noah Kantrowitz',
